@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Conversor</string>
+
+    <string name="Dolares">Dolares</string>
+    <string name="Pesos">Pesos</string>
+    <string name="Convertir">Convertir</string>
+    <string name="Cambio">Valor de cambio</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>

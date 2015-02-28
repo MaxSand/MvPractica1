@@ -1,0 +1,155 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:id="@+id/scrollView"
+    android:background="@android:color/white">
+
+    <LinearLayout
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/Pesos"
+            android:textSize="20sp"
+            android:textColor="@color/primary_dark_material_dark"/>
+
+        <EditText
+            android:id="@+id/editPesos"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:inputType="numberDecimal"
+            android:ems="10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/Cambio"
+            android:textSize="20sp"
+            android:textColor="@color/primary_dark_material_dark"/>
+
+        <EditText
+            android:id="@+id/editCambio"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:inputType="numberDecimal"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/btConvertir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center"
+            android:text="@string/Convertir"
+            android:onClick="btConvertirPesosDolares"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:text="@string/Dolares"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_dark"/>
+
+        <TextView
+            android:id="@+id/resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="0"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_dark"/>
+
+        // dolares
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/Dolares"
+            android:textSize="20sp"
+            android:textColor="@color/primary_dark_material_dark"/>
+
+        <EditText
+            android:id="@+id/editDolares"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:inputType="numberDecimal"
+            android:ems="10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/Cambio"
+            android:textSize="20sp"
+            android:textColor="@color/primary_dark_material_dark"/>
+
+        <EditText
+            android:id="@+id/editCambio1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:inputType="numberDecimal"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/btConvertir1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center"
+            android:text="@string/Convertir"
+            android:onClick="btConvertirDolaresPesos"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:text="@string/Pesos"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_dark"/>
+
+        <TextView
+            android:id="@+id/resultado1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="0"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_dark"/>
+    </LinearLayout>
+</ScrollView>
